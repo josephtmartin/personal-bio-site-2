@@ -1,14 +1,14 @@
 {
-  "name": "webpack-intro",
+  "name": "personal-bio-site-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal Bio Site for Joseph Martin",
   "main": "src/javascripts/main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --module-bind js=babel-loader"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joseph Martin",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.11.4",

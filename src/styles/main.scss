@@ -1,9 +1,15 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap');
+
+@import './globals/index.scss';
+@import './components/index.scss';
 
 body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://images6.alphacoders.com/708/708359.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
 }

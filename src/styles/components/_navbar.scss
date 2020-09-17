@@ -1,0 +1,32 @@
+nav {
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #222;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0px 200px;
+  color: white;
+}
+
+nav a:hover {
+  color: #555;
+  cursor: pointer;
+}
+
+#navLinks {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 7.5px 10px 7.5px 10px;
+  margin: 0;
+  a {
+    text-decoration: none;
+    font-size: large;
+  }
+}
