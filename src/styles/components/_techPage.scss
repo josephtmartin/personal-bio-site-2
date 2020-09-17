@@ -1,0 +1,18 @@
+#technologiesPage {
+  padding: 10px 15px;
+  h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+  }
+}
+.tech {
+  display: flex;
+  flex-flow: row wrap;
+  i{
+    color: #d3d3d3;
+    font-size: 100px;
+    margin: 20px;
+  }
+}
