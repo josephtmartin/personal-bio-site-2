@@ -60,21 +60,21 @@ const projects = [
   },
   {
     title: 'Bloomers',
-    screenshot: '',
+    screenshot: 'https://i.postimg.cc/50mpq2TV/bloomers.png',
     description:
       'This website was built as a group project during our time at Nashville Software School and showcases our skills with HTML, CSS, JavaScript, and our ability to work as a team',
     technologiesUsed: 'HTML5, CSS3, JavaScript ES6, JQuery',
-    available: false,
-    url: 'https://github.com/josephtmartin',
-    githubUrl: 'https://github.com/josephtmartin',
+    available: true,
+    url: 'https://bloomers-group-project.netlify.app/',
+    githubUrl: 'https://github.com/josephtmartin/Bloomers',
   },
   {
     title: 'Parks And Rec Chat Room',
-    screenshot: '',
+    screenshot: 'https://i.postimg.cc/MTXYkJGk/Screenshot-57.png',
     description:
       'This app was built as a way for the Parks Department of Pawnee to communicate more efficiently and to be more productive in their day to day tasks.',
     technologiesUsed: 'HTML5, CSS3, JavaScript ES6, JQuery, SASS',
-    available: false,
+    available: true,
     url: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
     githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
   },
