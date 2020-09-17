@@ -64,7 +64,7 @@ const projects = [
     description:
       'This website was built as a group project during our time at Nashville Software School and showcases our skills with HTML, CSS, JavaScript, and our ability to work as a team',
     technologiesUsed: 'HTML5, CSS3, JavaScript ES6, JQuery',
-    available: true,
+    available: false,
     url: 'https://github.com/josephtmartin',
     githubUrl: 'https://github.com/josephtmartin',
   },
@@ -74,7 +74,7 @@ const projects = [
     description:
       'This app was built as a way for the Parks Department of Pawnee to communicate more efficiently and to be more productive in their day to day tasks.',
     technologiesUsed: 'HTML5, CSS3, JavaScript ES6, JQuery, SASS',
-    available: true,
+    available: false,
     url: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
     githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
   },
