@@ -75,8 +75,8 @@ const projects = [
       'This app was built as a way for the Parks Department of Pawnee to communicate more efficiently and to be more productive in their day to day tasks.',
     technologiesUsed: 'HTML5, CSS3, JavaScript ES6, JQuery, SASS',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
-    githubUrl: 'https://github.com/nss-evening-cohort-13/chatty-gamma',
+    url: 'https://parksandrecchat.netlify.app/',
+    githubUrl: 'https://github.com/josephtmartin/Parks-And-Rec-Chat',
   },
 ];
 
