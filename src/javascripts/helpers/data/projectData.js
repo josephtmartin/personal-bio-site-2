@@ -11,7 +11,6 @@ const getProjects = () => new Promise((resolve, reject) => {
       Object.keys(demProjects).forEach((projectId) => {
         projects.push(demProjects[projectId]);
       });
-      console.warn(projects);
     }
     resolve(projects);
   }).catch((error) => reject(error));
