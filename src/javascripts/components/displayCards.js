@@ -1,23 +1,14 @@
-import projects from '../helpers/data/projectsArray';
+import getProjects from '../helpers/data/projectData';
+import card from './makeCards';
 
 const displayProjects = () => {
-  projects.getProjects().forEach((project) => {
-    if (project.available === true) {
-      $('#projectsPage').append(`
-        <div class="card-container">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="${project.screenshot}" alt="Card image cap">
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">${project.title}</h5>
-              <p class="card-text">${project.description}</p>
-              <h5 class="tech-used-title">Tech Used:</h5>
-              <p class="tech-used-p">${project.technologiesUsed}</p>
-              <a href="${project.url}" class="btn btn-outline-dark mt-auto" target="_blank">Live Demo</a>
-              <a href="${project.githubUrl}" class="btn btn-outline-dark mt-auto" target="_blank">Project Link</a>
-            </div>
-          </div>
-        </div>
-      `);
+  getProjects.getProjects().then((response) => {
+    if (response.length) {
+      response.forEach((item) => {
+        $('#projectsPage').append(card.projectMaker(item));
+      });
+    } else {
+      $('#projectsPage').html('<h1>No Projects</h1>');
     }
   });
 };

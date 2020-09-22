@@ -9,8 +9,9 @@ const getProjects = () => new Promise((resolve, reject) => {
     const projects = [];
     if (demProjects) {
       Object.keys(demProjects).forEach((projectId) => {
-        projects.push(projectId);
+        projects.push(demProjects[projectId]);
       });
+      console.warn(projects);
     }
     resolve(projects);
   }).catch((error) => reject(error));
