@@ -25,5 +25,14 @@
     "available": true,
     "url": "https://parksandrecchat.netlify.app/",
     "githubUrl": "https://github.com/josephtmartin/Parks-And-Rec-Chat"
+  },
+  "project4": {
+    "available": true,
+    "description": "This website was built as a group project during my time at NSS. I created all the CRUD functionality for the ingredients page and the navigation bar",
+    "githubUrl": "https://github.com/josephtmartin/Le-Baguette",
+    "screenshot": "https://i.postimg.cc/j20VWc1j/auth-menu.png",
+    "technologiesUsed": "HTML5, CSS3, JavaScript ES6, JQuery, Axios, and Firebase",
+    "title": "Le Baguette",
+    "url": "https://michelin-star-35c92.web.app/"
   }
 }
