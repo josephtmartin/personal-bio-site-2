@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #222;
+  background: transparent;
   position: sticky;
   top: 0;
 }
@@ -15,7 +15,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #555;
+  color: #999;
   cursor: pointer;
 }
 
@@ -27,6 +27,6 @@ nav a:hover {
   margin: 0;
   a {
     text-decoration: none;
-    font-size: large;
+    font-size: 25px;
   }
 }
