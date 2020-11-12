@@ -1,7 +1,7 @@
 #projectsPage {
   display: flex;
   flex-flow: row wrap;
-  margin: 20px;
+  justify-content: space-between;
 }
 .projects-page-container {
   padding: 10px 15px;

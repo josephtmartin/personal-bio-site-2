@@ -1,7 +1,7 @@
 const projectMaker = (project) => {
   const domString = `
 <div class="card-container">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 504px;">
       <img class="card-img-top" src="${project.screenshot}" alt="Card image cap">
       <div class="card-body d-flex flex-column">
         <h5 class="card-title">${project.title}</h5>
