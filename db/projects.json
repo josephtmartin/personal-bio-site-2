@@ -2,7 +2,7 @@
   "project1": {
     "title": "Bloomers",
     "screenshot": "https://i.postimg.cc/50mpq2TV/bloomers.png",
-    "description": "This website was built as a group project during our time at Nashville Software School and showcases our skills with HTML, CSS, JavaScript, and our ability to work as a team",
+    "description": "This website is a product website where you can find your perfect pair of bloomers, search through FAQ's, learn about us, and contact us. Find the perfect bloomers style for you!",
     "technologiesUsed": "HTML5, CSS3, JavaScript ES6, JQuery",
     "available": true,
     "url": "https://bloomers-group-project.netlify.app/",
@@ -11,7 +11,7 @@
   "project2": {
     "title": "Dino Kennel",
     "screenshot": "https://i.postimg.cc/SsBGLzNj/dino-kennel.png",
-    "description": "This was to showcase and test our skills. We had no help from our teammates and really tested our individual skills and incorporated what skills we have learned",
+    "description": "This app is a Dinosaur Kennel. You can add your favorite dinosaur with an image of your choosing, a name, and an owner. You can also send you're dinosaur on a random adventure, but watch out! You could send your dinosaur to the hospital or worse the graveyard. Feed you're dinosaur to bring it's health back up",
     "technologiesUsed": "HTML5, CSS3, JavaScript ES6, JQuery",
     "available": true,
     "url": "https://dinokenneljm.netlify.app/",
@@ -20,7 +20,7 @@
   "project3": {
     "title": "Parks And Rec Chat Room",
     "screenshot": "https://i.postimg.cc/MTXYkJGk/Screenshot-57.png",
-    "description": "This app was built as a way for the Parks Department of Pawnee to communicate more efficiently and to be more productive in their day to day tasks.",
+    "description": "This app was built as a way for the Parks Department of Pawnee to communicate more efficiently and to be more productive in their day to day tasks, and let's be honest they aren't going to get much done with Ron as their boss. Leslie really over uses this... She loves her job too much",
     "technologiesUsed": "HTML5, CSS3, JavaScript ES6, JQuery, SASS",
     "available": true,
     "url": "https://parksandrecchat.netlify.app/",
@@ -28,7 +28,7 @@
   },
   "project4": {
     "available": true,
-    "description": "This website was built as a group project during my time at NSS. I created all the CRUD functionality for the ingredients page and the navigation bar",
+    "description": "This website was made for the employees of Le Baguette. This site keeps track of staff, ingredients, reservations, and menu items. Authenticated users are able to update, create and delete any of the data on the website. I created all the CRUD functionality for the ingredients page and the navigation bar",
     "githubUrl": "https://github.com/josephtmartin/Le-Baguette",
     "screenshot": "https://i.postimg.cc/j20VWc1j/auth-menu.png",
     "technologiesUsed": "HTML5, CSS3, JavaScript ES6, JQuery, Axios, and Firebase",

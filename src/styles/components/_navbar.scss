@@ -3,14 +3,15 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: transparent;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   position: sticky;
   top: 0;
 }
 
 nav a {
   display: inline-block;
-  padding: 0px 200px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: white;
 }
 
