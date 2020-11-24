@@ -12,8 +12,8 @@ const projectMaker = (project) => {
         <b>Technologies Used:</b>
           ${project.technologiesUsed}
         </p>
-        <a href="${project.url}" class="btn btn-outline-light mt-auto" target="_blank">Live Demo</a>
-        <a href="${project.githubUrl}" class="btn btn-outline-light mt-auto" target="_blank">Github Project</a>
+        <a href="${project.url}" class="btn btn-outline-light mt-auto m-2" target="_blank">Live Demo</a>
+        <a href="${project.githubUrl}" class="btn btn-outline-light mt-auto m-2" target="_blank">Github Project</a>
       </div>
     </div>
   </div>
